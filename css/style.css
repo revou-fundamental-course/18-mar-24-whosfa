@@ -1,0 +1,116 @@
+* {
+    font-family: arial;
+}
+
+.container {
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;
+ 
+}
+
+.section-container > header {
+    text-align: center;
+}
+ 
+.section-container > header > h3 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+ 
+}
+
+hr {
+    margin: 0px;
+}
+
+.logo-icons {
+    width: 40px;
+    height: 40px;
+    background-image: url(../assets/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.nav-container > button {
+    height: 25px ;
+}
+
+.nav-container > button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.section-container {
+    padding-top: 50px;
+    padding-bottom: 24px;
+}
+
+
+
+.section-content-container {
+    display: flex;
+    
+}
+ 
+
+ 
+
+.name-input {
+ 
+    height: 24px;
+    width: 50%;
+    border: 1px solid rgb(2, 2, 2);
+    border-radius: 16px;
+}
+
+.email {
+    height: 24px;
+    width: 50%;
+    border: 1px solid rgb(2, 2, 2);
+    border-radius: 16px;
+}
+
+.tempat-tinggal {
+    height: 24px;
+    width: 50%;
+    border: 1px solid rgb(2, 2, 2);
+    border-radius: 16px;
+}
+
+.button {
+    height: 28px;
+    width: 80px;
+    background-color: black;
+    color: rgb(248, 243, 243);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.button:hover {
+    color: rgb(10, 10, 10);
+    background-color: rgb(255, 255, 255);
+}
+
+.bottom-content {
+    
+    margin-left: 20px;
+    margin-right: 50px;
+    height: 500px; 
+    width: 50%; 
+}
+
+.bottom-content .p {
+
+    margin-left: 80px;
+    margin-right: 50px;
+    font-style: italic;
+}
+
+.user > center > p {
+    font-style: italic;
+}
